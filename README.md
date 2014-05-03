@@ -3,6 +3,8 @@ astrophoto-webcam
 
 Set of scripts that I used to do some crude astro-photography with a webcam.
 
+![Picture of Saturn](./saturn.jpeg)
+
 The picture of Saturn has been created in that way, with an old QuickCam, right
 from the time when they invented colour webcams.
 The lens was removed from the webcam, and the PCB with the bare CCD was
@@ -29,7 +31,7 @@ or paper. This will be the ''dark frame''.
 
 Substract the dark frame from each frame using 1\_substract-dark.sh
 
-Execute 2\_align.sh that uses align\_image\_stack from hugin to align your
+Execute 2\_align.sh that uses align\_image\_stack from Hugin to align your
 object on each frame. Do a visual inspection.
 
 Average all aligned frames with 3\_average.sh
